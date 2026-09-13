@@ -112,5 +112,21 @@ GET /api/users?email=john.doe@example.com
 
 This operation can be consumed by the **Auth Service** during the authentication process.
 
+## Database
+
+The service uses **PostgreSQL** with **Spring Data JPA** for persistence.
+
+```text
+User Service
+     │
+     ▼
+Spring Data JPA
+     │
+     ▼
+PostgreSQL
+```
+
+Database configuration is provided through `application.properties`.
+
 
 
