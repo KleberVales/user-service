@@ -141,5 +141,27 @@ spring.jpa.show-sql=true
 
 For production environments, database credentials should be provided through environment variables or a secrets-management solution instead of being committed to the repository.
 
+## Running Locally
+
+### Prerequisites
+
+Make sure you have installed:
+
+* Java 21
+* PostgreSQL
+* Git
+
+Verify Java:
+
+```bash
+java -version
+```
+
+Verify Gradle wrapper:
+
+```bash
+./gradlew --version
+```
+
 
 
