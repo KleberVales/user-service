@@ -49,3 +49,24 @@ The User Service is responsible for:
 * Retrieving users by email
 * Providing user information to other microservices
 * Encapsulating user persistence behind the service API
+
+## Project Structure
+
+The project follows a layered structure that separates HTTP, application, domain, and persistence responsibilities.
+
+```text
+src/
+└── main/
+    ├── java/
+    │   └── com/
+    │       └── kvales/
+    │           └── userservice/
+    │               ├── controller/
+    │               ├── service/
+    │               ├── domain/
+    │               ├── repository/
+    │               └── ...
+    │
+    └── resources/
+        └── application.properties
+```
