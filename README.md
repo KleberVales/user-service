@@ -128,5 +128,18 @@ PostgreSQL
 
 Database configuration is provided through `application.properties`.
 
+Example:
+
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/user_db
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
+
+For production environments, database credentials should be provided through environment variables or a secrets-management solution instead of being committed to the repository.
+
 
 
