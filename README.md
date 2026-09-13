@@ -91,3 +91,13 @@ Example request:
   "password": "password"
 }
 ```
+
+Example response:
+
+```json
+{
+  "id": "user-id",
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}
+```
