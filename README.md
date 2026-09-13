@@ -70,3 +70,24 @@ src/
     └── resources/
         └── application.properties
 ```
+
+## API
+
+### Create User
+
+Creates a new user.
+
+```http
+POST /api/users
+Content-Type: application/json
+```
+
+Example request:
+
+```json
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "password": "password"
+}
+```
