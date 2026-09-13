@@ -37,3 +37,15 @@ The **Auth Service** can communicate with the User Service when it needs to retr
 * REST API
 
 The project uses Java 21 through the Gradle Java toolchain and PostgreSQL as its persistence database.
+
+## Responsibilities
+
+The User Service is responsible for:
+
+* Creating users
+* Managing user information
+* Persisting users in PostgreSQL
+* Retrieving users by their identifiers
+* Retrieving users by email
+* Providing user information to other microservices
+* Encapsulating user persistence behind the service API
