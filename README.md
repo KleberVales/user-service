@@ -163,5 +163,18 @@ Verify Gradle wrapper:
 ./gradlew --version
 ```
 
+## Design Goals
+
+The project is intended to demonstrate several backend and microservices concepts:
+
+* Service decomposition
+* RESTful APIs
+* Domain separation
+* Persistence with JPA
+* PostgreSQL integration
+* Service-to-service communication
+* Independent microservice deployment
+* Clean separation of responsibilities
+
 
 
