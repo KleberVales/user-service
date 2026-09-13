@@ -25,3 +25,15 @@ flowchart LR
 ```
 
 The **Auth Service** can communicate with the User Service when it needs to retrieve user information during authentication.
+
+## Technologies
+
+* Java 21
+* Spring Boot 3.2.4
+* Spring Web
+* Spring Data JPA
+* PostgreSQL
+* Gradle
+* REST API
+
+The project uses Java 21 through the Gradle Java toolchain and PostgreSQL as its persistence database.
