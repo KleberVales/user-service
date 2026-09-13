@@ -176,5 +176,23 @@ The project is intended to demonstrate several backend and microservices concept
 * Independent microservice deployment
 * Clean separation of responsibilities
 
+## Related Services
 
+This service is intended to work as part of a larger microservices architecture:
+
+```text
+                    ┌─────────────────┐
+                    │   API Gateway   │
+                    └────────┬────────┘
+                             │
+                 ┌───────────┴───────────┐
+                 │                       │
+          ┌──────▼──────┐         ┌──────▼──────┐
+          │ Auth Service│────────▶│ User Service│
+          └─────────────┘         └──────┬───────┘
+                                         │
+                                  ┌──────▼───────┐
+                                  │  PostgreSQL   │
+                                  └───────────────┘
+```
 
