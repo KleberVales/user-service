@@ -101,3 +101,16 @@ Example response:
   "email": "john.doe@example.com"
 }
 ```
+
+### Get User by Email
+
+Retrieves a user using their email address.
+
+```http
+GET /api/users?email=john.doe@example.com
+```
+
+This operation can be consumed by the **Auth Service** during the authentication process.
+
+
+
